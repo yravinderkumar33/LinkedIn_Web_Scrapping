@@ -5,7 +5,7 @@ const scrollDown = require('puppeteer-autoscroll-down');
 module.exports = async (id: string) => {
 
     const browser: Browser = await puppeteer.launch({
-        headless: false
+        headless: true
     });
 
     const page: Page = await browser.newPage();
