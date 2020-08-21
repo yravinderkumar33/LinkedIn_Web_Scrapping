@@ -1,0 +1,30 @@
+{
+  "name": "LinkedIn_Web_Scrapping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yravinderkumar33/LinkedIn_Web_Scrapping.git"
+  },
+  "keywords": [],
+  "author": "ravinder <yravinderkumar33@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yravinderkumar33/LinkedIn_Web_Scrapping/issues"
+  },
+  "homepage": "https://github.com/yravinderkumar33/LinkedIn_Web_Scrapping#readme",
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "puppeteer": "^5.2.1",
+    "puppeteer-autoscroll-down": "^0.1.6"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.1",
+    "typescript": "^4.0.2"
+  }
+}
